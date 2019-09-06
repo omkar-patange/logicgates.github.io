@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Logic gates </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+
+	<!-- OR gate -->
+
+	<div class="boxor">
+		<h1 class="font-weight-bold"> OR gate </h1>
+		<div class="inputsor">
+			<label>A</label>
+			<input type="text" name="value1" id="valueof_A_or">
+			<label>B</label>
+			<input type="text" name="value2" id="valueof_B_or">
+		</div>
+		<div class="btnsor d-flex justify-content-between">
+			<button class="btn btn-lg btn-info" onclick="refreshor()">refresh</button>
+			<button class="btn btn-lg btn-success" onclick="checkor()">check result</button>
+		</div>
+		<div class="headingor">
+			<label>
+			output
+		</label>
+		<h4 class="show_resultor" id="show_resultor">  </h4>
+		</div>
+	</div>
+
+	<hr class="hr_or">
+
+	<!-- NOR gate -->
+
+	<div class="boxnor">
+		<h1 class="font-weight-bold"> NOR gate </h1>
+		<div class="inputsnor">
+			<label>A</label>
+			<input type="text" name="value1" id="valueof_A_nor">
+			<label>B</label>
+			<input type="text" name="value2" id="valueof_B_nor">
+		</div>
+		<div class="btnsnor">
+			<button class="btn btn-lg btn-info" onclick="refreshnor()">refresh</button>
+			<button class="btn btn-lg btn-success" onclick="checknor()">check result</button>
+		</div>
+		<div class="headingnor">
+			<label>
+			output
+		</label>
+		<h4 class="show_resultnor" id="show_resultnor">  </h4>
+		</div>
+	</div>
+
+	<hr class="hr_nor">
+
+	<!-- AND gate -->
+
+	<div class="boxand">
+		<h1 class="font-weight-bold"> AND gate </h1>
+		<div class="inputsand">
+			<label>A</label>
+			<input type="text" name="value1" id="valueof_A_and">
+			<label>B</label>
+			<input type="text" name="value2" id="valueof_B_and">
+		</div>
+		<div class="btnsand">
+			<button class="btn btn-lg btn-info" onclick="refreshand()">refresh</button>
+			<button class="btn btn-lg btn-success" onclick="checkand()">check result</button>
+		</div>
+		<div class="headingand">
+			<label>
+			output
+		</label>
+		<h4 class="show_resultand" id="show_resultand">  </h4>
+		</div>
+	</div>
+
+	<hr class="hr_and">
+
+	<!-- NAND gate -->
+
+	<div class="boxnand">
+		<h1 class="font-weight-bold"> NAND gate </h1>
+		<div class="inputsnand">
+			<label>A</label>
+			<input type="text" name="value1" id="valueof_A_nand">
+			<label>B</label>
+			<input type="text" name="value2" id="valueof_B_nand">
+		</div>
+		<div class="btnsnand">
+			<button class="btn btn-lg btn-info" onclick="refreshnand()">refresh</button>
+			<button class="btn btn-lg btn-success" onclick="checknand()">check result</button>
+		</div>
+		<div class="headingnand">
+			<label>
+			output
+		</label>
+		<h4 class="show_resultnand" id="show_resultnand">  </h4>
+		</div>
+	</div>
+
+	<hr class="hr_nand">
+
+	<!-- Exclusive OR gate -->
+
+	<div class="boxexor">
+		<h1 class="font-weight-bold"> Exclusive OR gate </h1>
+		<div class="inputsexor">
+			<label>A</label>
+			<input type="text" name="value1" id="valueof_A_exor">
+			<label>B</label>
+			<input type="text" name="value2" id="valueof_B_exor">
+		</div>
+		<div class="btnsexor">
+			<button class="btn btn-lg btn-info" onclick="refreshexor()">refresh</button>
+			<button class="btn btn-lg btn-success" onclick="checkexor()">check result</button>
+		</div>
+		<div class="headingexor">
+			<label>
+			output
+		</label>
+		<h4 class="show_resultexor" id="show_resultexor">  </h4>
+		</div>
+	</div>
+
+	<hr class="hr_exor">
+
+	<!-- Exclusive NOR gate -->
+
+	<div class="boxexnor">
+		<h1 class="font-weight-bold"> Exclusive NOR gate </h1>
+		<div class="inputsexnor">
+			<label>A</label>
+			<input type="text" name="value1" id="valueof_A_exnor">
+			<label>B</label>
+			<input type="text" name="value2" id="valueof_B_exnor">
+		</div>
+		<div class="btnsexnor">
+			<button class="btn btn-lg btn-info" onclick="refreshexnor()">refresh</button>
+			<button class="btn btn-lg btn-success" onclick="checkexnor()">check result</button>
+		</div>
+		<div class="headingexnor">
+			<label>
+			output
+		</label>
+		<h4 class="show_resultexnor" id="show_resultexnor">  </h4>
+		</div>
+	</div>
+
+	<hr class="hr_exnor">
+
+</body>
+</html>
